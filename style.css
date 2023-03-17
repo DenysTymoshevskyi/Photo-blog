@@ -26,3 +26,14 @@ color: #7D7D7D;
     padding-top: 71px;
     padding-bottom: 92px;
 }
+.galery-item {
+    width: 420px;
+}
+.galery-list {
+    display: flex;
+    gap: 65px;
+    flex-wrap: wrap;
+    width: 906px;
+    margin-left: auto;
+    margin-right: auto;
+}
