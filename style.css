@@ -1,39 +1,95 @@
-ul{
+ul {
     list-style: none;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.header-list{
+
+.header-list {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
-.header-link{
+
+.header-link {
     text-decoration: none;
     font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #7D7D7D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D7D7D;
 }
-.header-link:hover{
-  color: #03A9F4  ;  
+
+.header-link:hover {
+    color: #03A9F4;
 }
-.header{
+
+.header {
     padding-top: 71px;
     padding-bottom: 92px;
 }
-.galery-item {
-    width: 420px;
-}
-.galery-list {
+
+.gallery-list {
     display: flex;
     gap: 65px;
     flex-wrap: wrap;
+    margin-bottom: 62px;
     width: 906px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.gallery-item {
+    width: 420px;
+}
+
+.gallery-img {
+    margin-bottom: 62px;
+}
+
+.gallely-type {
+    margin-bottom: 32px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+}
+
+.gallery-title {
+    margin-bottom: 40px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+
+}
+
+.gallery-description {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+}
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    /* gap: 100px; */
+ }
+ 
+ .button {
+    margin-bottom: 48px;
+    width: 165px;
+    height: 60px;
+    left: 506px;
+    top: 1436px;
 }
